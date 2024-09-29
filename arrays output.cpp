@@ -1,16 +1,13 @@
 #include <iostream>
 using namespace std;
-// Двумерные массивы
+// Р”РІСѓРјРµСЂРЅС‹Рµ РјР°СЃСЃРёРІС‹ РІС‹РІРѕРґ
 
 int main() {
     const int ROWS = 5;
     const int COLS = 8;
 
-    int arr[ROWS][COLS]
-    {
-        {10,20,30,40},
-        {100,200,300,400}
-    };
+    int arr[ROWS][COLS];
+    
 
     for (int i = 0;i < ROWS; ++i)
     {
@@ -28,3 +25,4 @@ int main() {
         }
     }
 }
+
